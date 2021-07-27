@@ -86,3 +86,9 @@
 * Here it will push the files into the stack exactly same like git stash
 
 ---
+
+## Use of Git Rebase command for making only 1 commits from several commits
+- git rebase -i HEAD~4
+* **4 Represents how many commits to be considered**
+
+---
