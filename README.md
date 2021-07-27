@@ -52,8 +52,9 @@
 
 * git revert - It helps you to roll back to the previous version of the file.
 
- **git revert <commit id>**
-**git revert HEAD**
+* **git revert "commit id"**
+ 
+- **git revert HEAD**
 - The above command will reflect back to HEAD commit.
 
 * git rebase - Basically, rebase is again one way of combining work between different branch. What rebase does is :- It takes a set of commits, copy them and store outside the repository. Advantage of rebase is that linear sequencing of commits. So commit logs or history logs will be clean if rebase is done. 
