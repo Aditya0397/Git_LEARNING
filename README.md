@@ -93,3 +93,11 @@
 * **4 Represents how many commits to be considered**
 * pick which to choose and select s for squash
 ---
+
+## Git Reset Understanding
+* git reset HEAD~1
+* 1 represents how many commits to be delete from HEAD Reference.
+* This is usually applied when not push to master/main branch.
+* Useful command when you commit by mistake and you need to remove it.
+ ---
+ 
