@@ -90,5 +90,5 @@
 ## Use of Git Rebase command for making only 1 commits from several commits
 - git rebase -i HEAD~4
 * **4 Represents how many commits to be considered**
-
+* pick which to choose and select s for squash
 ---
