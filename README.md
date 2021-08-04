@@ -100,4 +100,16 @@
 * This is usually applied when not push to master/main branch.
 * Useful command when you commit by mistake and you need to remove it.
  ---
+
+## Git Merge
+* Merging allows you to join two or more branches through a commit.
+*  Only the target branch is changed. In our case, this would be the mybranch (Feature branch)- We added sample file in main branch and did git merge mybranch -> So all the contents of main branch gets copied into the feature branch (mybranch). The history of your feature branch is preserved.
+
+* Command used
+- git checkout main
+- git add {dummy file}
+- git checkout mybranch
+- git merge main
+
+---
  
